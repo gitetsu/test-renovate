@@ -7,8 +7,10 @@
     {
       "groupName": "Node.js",
       "matchPackageNames": [
+        "node",
         "cimg/node"
-      ]
+      ],
+      "allowedVersions": "< 19"
     }
   ]
 }
