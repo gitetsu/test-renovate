@@ -8,8 +8,7 @@
       "groupName": "Node.js",
       "matchPackageNames": [
         "cimg/node"
-      ],
-      "allowedVersions": "< 19"
+      ]
     }
   ]
 }
