@@ -8,7 +8,8 @@
       "groupName": "Node.js",
       "matchPackageNames": [
         "cimg/node"
-      ]
+      ],
+      "allowedVersions": "/^18\.[0-9]+\.[0-9](-browser)?$/"
     }
   ]
 }
