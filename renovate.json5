@@ -3,7 +3,7 @@
   "extends": [
     "config:base"
   ],
-  "enabledManagers": ["npm", "nodenv"],
+  "enabledManagers": ["npm", "nodenv", "circleci"],
   "packageRules": [
     {
       "groupName": "Node.js",
