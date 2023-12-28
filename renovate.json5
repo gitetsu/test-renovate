@@ -5,18 +5,10 @@
   ],
   "packageRules": [
     {
-      "matchDatasources": ["docker"],
-      "matchPackageNames": ["node"],
-      "versionCompatibility": "^(?<version>[^-]+)(?<compatibility>-.*)?$",
-      "versioning": "node"
-    },
-    {
       "groupName": "Node.js",
-      "matchPackageNames": [
-        "cimg/node"
-      ],
-      "allowedVersions": "<19"
-    //  //"allowedVersions": "/(^18\\.[0-9]+\\.[0-9]+(?:-browser)?)$/"
+      "matchDepNames": "node",
+      "matchPackagePatterns": ["/node$"],
+      "versioning": "node"
     }
   ]
 }
