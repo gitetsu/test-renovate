@@ -3,7 +3,7 @@
   "extends": [
     "config:base"
   ],
-  "enabledManagers": ["npm", "nodenv", "circleci", "docker"],
+  "enabledManagers": ["npm", "nodenv", "circleci", "docker-compose"],
   "packageRules": [
     {
       "groupName": "Node.js",
