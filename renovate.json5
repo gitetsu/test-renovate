@@ -15,5 +15,8 @@
       ],
       "versioning": "node"
     }
-  ]
+  ],
+  "ignoreDeps": [
+    "postgres"
+  ],
 }
